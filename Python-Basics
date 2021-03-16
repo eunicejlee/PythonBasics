@@ -1,0 +1,29 @@
+print("Eunice")
+print("I need you to hold on") 
+print("Heaven is a place not too far away")
+print()
+
+x=3
+y=19
+print(x)
+print(y)
+print(64+32)
+x=64
+y=32
+print(x+y)
+print()
+
+actress="Kim So Yeon"
+print("My favorite actress is: " + actress)
+s="My lucky color is....?"
+print(s)
+dmy="Today is %d/%d/%d" % (3,15,2021)
+print(dmy)
+print()
+
+dmy2=dmy.replace("Today","Tomorrow")
+print(dmy2)
+s="Hey Hey Samurai heart"
+search=s.find("Hey")
+print(search)
+print()
