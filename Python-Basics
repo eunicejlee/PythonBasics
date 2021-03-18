@@ -1,3 +1,83 @@
+#Run Python program
+print("Eunice")
+print("I need you to hold on") 
+print("Heaven is a place not too far away")
+print()
+
+#Variables
+x=3
+y=19
+print(x)
+print(y)
+print(64+32)
+x=64
+y=32
+print(x+y)
+print()
+
+#Strings
+actress="Kim So Yeon"
+print("My favorite actress is: " + actress)
+s="My lucky color is....?"
+print(s)
+dmy="Today is %d/%d/%d" % (3,15,2021)
+print(dmy)
+print()
+
+#String replace
+dmy2=dmy.replace("Today","Tomorrow")
+print(dmy2)
+s="Hey Hey Samurai heart"
+search=s.find("Hey")
+print(search)
+print()
+
+#String find
+s="hElLoo"
+print(s.find("E"))
+
+print(s.find("o")) 
+#o at index 4 is
+
+value = input("Enter a string:")
+print(value.find("hello"))
+
+#String join
+words=["my","name","is","Eunice"]
+sentence=' '.join(words)
+print(sentence)
+
+words2=["my","name","is","Eunice"]
+sentence2='_'.join(words2)
+print(sentence2)
+
+#String split
+#Yes
+
+s="World,Earth,America,Canada"
+words=s.split(",")
+print(words)
+
+#Yes
+
+#Random numbers
+import random
+x=random.randrange(0,20)
+print(x)
+
+randomlist = []
+for i in range(0,5):
+  n = random.randint(0,20)
+  randomlist.append(n)
+print(randomlist)
+
+#Keyboard input
+number=input("What is your phone number? ")
+print(str(number))
+
+lang=input("Which programming lang do you prefer? ")
+print(lang)
+
 #If Statement
 x=int(input("Choose number between 1 and 10: "))
 if x<0 or x>10:
